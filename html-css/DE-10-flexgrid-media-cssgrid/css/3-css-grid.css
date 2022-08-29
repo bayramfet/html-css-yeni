@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: 150px 300px 250px;
+
+    grid-template-rows: 100px 500px 100px;
+}
+
+.parca{
+    border:1px solid red ;
+    background-color: thistle;
+    text-align: center;
+    
+
+
+}
+.parca4{
+/* #ok cikartiyor tasma oldugu zaman */
+
+overflow: auto;
+
+}
+.parca1{
+    background-image: url(../../assets/img/winter1.jpg);
+    background-size:cover ;
+    /* resmi sigdir */
+}

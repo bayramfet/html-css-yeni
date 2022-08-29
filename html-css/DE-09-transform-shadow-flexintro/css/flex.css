@@ -1,0 +1,112 @@
+.container1 div{
+
+background-color: tomato;
+width: 5rem;
+height: 5rem;
+margin: 1rem;
+
+}
+.container1{
+    background-color: antiquewhite;
+    display: flex;
+    /* flex-direction: column ; */
+
+    flex-wrap: ;
+
+    
+}
+
+.container2 div{
+    background-color: red;
+    width: 5rem;
+    height: 10rem;
+    margin:1rem ;
+    font-size:30px;
+    display:flex;
+    align-items:center;
+
+}
+.container2{
+    background-color: rgb(224, 224, 57);
+    height: 20rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
+.container2 div:nth-child(1){
+    height: 5rem;
+
+}
+.container2 div:nth-child(2){
+    height: 7rem;
+    padding-top:4rem ;
+
+}
+.container2 div:nth-child(3){
+
+    height: 2rem;
+    padding: 0.5rem;
+
+}
+ul li{
+    background-color: pink;
+width: 4rem;
+height:5rem ;
+
+}
+ul{
+    background-color: darkgrey;
+    list-style-type:none;
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    align-items: center;
+    
+}
+.container4{
+    background-color: brown;
+    display: flex;
+    padding: 1rem 0;
+}
+.container4 div{
+    background-color: yellow;
+    width: 5rem;
+    margin:1rem ;
+}
+.grow1{
+ flex-grow: 1;
+ 
+ /*  default büyüme olsun */
+}
+.grow2 {
+  /*? grow2 classindakiler diğerlerine göre 2 kat daha fazla büyüyebilir.*/
+  flex-grow: 2;
+
+}
+.grow3 {
+  /*? grow3 classindakiler diğerlerine göre 3 kat daha fazla büyüyebilir.*/
+  flex-grow: 3;
+
+}
+.grow4 {
+  /*? nogrow classindakiler diğerlerine göre hiç büyümezler*/
+  flex-grow: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

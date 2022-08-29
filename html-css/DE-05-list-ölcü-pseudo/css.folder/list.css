@@ -1,0 +1,39 @@
+*{
+
+    font-family:'DynaPuff', cursive;
+
+    color: brown;
+}
+.menu li{
+    background-color:gray ;
+    color: orange;
+}
+a{
+    color:blue
+}
+
+.list .aktif{
+    background-color: rgb(14, 210, 7);
+}
+.aktif:hover{
+    background-color:pink;
+
+}
+li:hover{
+    background-color: yellow;
+    color: aqua;
+
+}
+a:hover{
+    color: bisque;
+}
+.list{
+
+    list-style-position: inside;
+    list-style-type: "🌛";
+}
+a{
+    text-decoration:none ;
+    font-size:25px ;
+    
+}

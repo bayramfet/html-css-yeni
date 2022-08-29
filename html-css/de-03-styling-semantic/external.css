@@ -1,0 +1,16 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  color: aqua;
+}
+
+.par {
+  color: rebeccapurple;
+}
+
+.center p span {
+  color: red;
+  text-align: center;
+}

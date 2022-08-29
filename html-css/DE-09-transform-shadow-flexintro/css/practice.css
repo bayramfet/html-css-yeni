@@ -1,0 +1,63 @@
+/*! kendi yazdigim css cagirdim */
+
+
+@import"variable.css";
+
+body{
+margin: 0;
+box-sizing: border-box ;
+font-family: var(--ff-monteserrat) ;
+font-weight:600 ;
+
+}
+nav .left,nav .middle, nav .right{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+nav{
+    margin-top:0.5rem ;
+    display: flex;
+
+}
+nav .left{
+background-color: var(--gri-8);
+border:1px solid black
+
+}
+nav .middle{
+    background-color:var(--mavi-10);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: var(--koyu-gölge);
+}
+nav .item{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 15px;
+    /* background-color: red; */
+
+}
+nav .item:hover{
+    background-color: var(--mavi-6);
+    color: white;
+    border-radius: 10px;
+    transition:background-color 5s, color 1s;
+
+   
+}
+nav .right{
+background-color: var(--mavi-7);
+box-shadow: var(--açık-gölge);
+border: 1px solid black;
+text-align: right;
+font-size: 40px;
+
+}
+nav .right i{
+    color: black;
+}
+
+nav .right i:hover{
+    font-size: 60px;
+}

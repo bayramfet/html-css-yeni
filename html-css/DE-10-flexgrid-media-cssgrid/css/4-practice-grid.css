@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  /* fr fraction demek herkes bir parca alsin manasinda %33 pay edildi  */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  grid-template-rows: repeat(4, 15vh)15vh 15vh;
+
+
+  /* rows larda fr kullanimi yok cünkkü tasan elaman olursa ona yer kalsin diye */
+gap: 10px 15px;
+/* gap aralari aciyor */
+
+}
+.parca{
+    background-color: yellowgreen;
+    border: 1px solid gray;
+display: flex;
+align-items: center;
+justify-content: center;
+
+/* yazilar ortaya geldi */
+
+}
+
+.parca1{
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* 1.sütündan basla 3 e kadar gel 3 dahil olmadan birlestirme yapar */
+}
+
+.parca4{
+    grid-row-start: 2;
+    grid-row-end:4;
+    background-color: orangered;
+}
+.parca6{
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    background-color: blueviolet;
+
+    /* alternatif yol  */
+
+    /* grid-area: 2 / 3 span 2/span2; */
+
+    /* satir baslangic/sütün baslangic/satirda kac parca/sütünda kacparca */
+
+
+
+}
+.parca9{
+    background-color: aqua;
+    grid-row-start: 4;
+    grid-row-end:6;
+/* grid columan ile sütünlari hareket ettierbiliriz  */
+grid-column:2 ;
+
+}
+
